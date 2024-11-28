@@ -2,6 +2,12 @@
 
 - Create React App
 - Configured tailwind css
+- Header
+- Login Form
+- We will convert the same Login form to Sign up from once user clicked on new Sign up Now!!
+- Sign Up Form
+- Validations In Forms
+
 
 --------
 # Features
@@ -11,6 +17,7 @@
 
 - Browse (After Authentication)
     - Header
+    - Login Form
     - Main Movie
         - Trailer in Background
         - Title & Description
