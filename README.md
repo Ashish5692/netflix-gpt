@@ -19,7 +19,26 @@
 - Adding header in Browse Page
 - Implemented Sign Out Features
 - Update Profile
+- BugFix: Sign up user displayName and profile picture update
+- BugFix: If the user is logged in Redirect/ browse to Login Page and vice-versa
+- unsubscribing to the onAuthStateChange callback - when component unmounts.
 - Fetch Movies from TMDB Movies
+- Add Hardcoded values to the constant file.
+- Register TMDB API & Create an app & get access token
+- Get Data from TMDB now playing movies list API
+- Put movie data inside redux store.
+- Custom Hook for Now Playing Movies.
+- Created movieSlice
+- Update store with movies data
+- Building Browse Page
+- Planning for Main Container and Secondary Container
+- putting trailer into the store
+- Fetch data for Trailer Video
+- Updated Stoe with Trailer Video Data 
+- Embedded the youtube video and make it autoplay and mute
+- Tailwind Classes to make Main Container look awesome.
+
+
 
 
 --------
