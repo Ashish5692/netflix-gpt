@@ -45,8 +45,9 @@
 - usePopularMovies Custom hook
 - useUpcomingMovies Custom hook
 - useTopRatedMovies Custom hook
-
-
+- GPT Search Bar Feature - Keeping data inside store that is whether gpt search is active or normal browser is active 
+- Storing Language Data Inside Redux Store.
+- Multi- Language Feature Inside the App
 
 
 --------
