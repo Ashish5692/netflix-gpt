@@ -27,7 +27,7 @@
 - Register TMDB API & Create an app & get access token
 - Get Data from TMDB now playing movies list API
 - Put movie data inside redux store.
-- Custom Hook for Now Playing Movies.
+- useNowPlayingMovies Custom Hook
 - Created movieSlice
 - Update store with movies data
 - Building Browse Page
@@ -43,6 +43,8 @@
 - TMDB Image CDN URL
 - Made the Browser page amazing with Tailwind CSS
 - usePopularMovies Custom hook
+- useUpcomingMovies Custom hook
+- useTopRatedMovies Custom hook
 
 
 

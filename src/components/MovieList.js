@@ -3,8 +3,7 @@ import MovieCard from "./MovieCard";
 import '../index.css';
 
 const MovieList = ({ title, movies }) => {
-  console.log("Title hai" + title);
-  console.log("Movies hai", movies);
+  
   return (
     <div className="px-6 mt-10">
       <h1 className="text-3xl py-2 text-white mb-3 ">{title}</h1>

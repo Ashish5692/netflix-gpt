@@ -8,8 +8,6 @@ const MainContainer = () => {
     if(movies === null) return ;  //early return--it will fix the movies null problem and will not load any movie if there is no movie in the store.
 
     const mainMovie = movies[1];
-    console.log("ye main hain" + mainMovie); //It will not run
-    
 
     const {original_title, overview, id} = mainMovie;
     console.log("ye main movies part 2 : ", mainMovie)
