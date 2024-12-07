@@ -14,6 +14,8 @@ const useNowPlayingMovies = () => {
     );
 
     const json = await data.json();
+
+    console.log("Now Playing ka data hai" + json);
     
     dispatch(addNowPlayingMovies(json.results)); //pushing json results to store
   };
@@ -22,7 +24,6 @@ const useNowPlayingMovies = () => {
     getNowPlayingMovies();
   }, []);
 
-  return <div>useNowPlayingMovies</div>;
 };
 
 export default useNowPlayingMovies;

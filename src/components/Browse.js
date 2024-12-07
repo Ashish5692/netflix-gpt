@@ -6,9 +6,12 @@ import { addNowPlayingMovies } from "../utils/moviesSlice";
 import useNowPlayingMovies from "../hooks/useNowPlayingMovies";
 import MainContainer from "./MainContainer";
 import SecondaryContainer from "./SecondaryContainer";
+import  usePopularMovies from "../hooks/usePopularMovies"
 
 const Browse = () => {
-  useNowPlayingMovies();
+  useNowPlayingMovies(); //calling the custom hook
+  usePopularMovies(); //fetching popular movies and updating the store
+
   return (
     <div>
       <Header />
