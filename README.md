@@ -48,7 +48,7 @@
 - GPT Search Bar Feature - Keeping data inside store that is whether gpt search is active or normal browser is active 
 - Storing Language Data Inside Redux Store.
 - Multi- Language Feature Inside the App
-
+- Pusinh the searched movie data to store.
 
 --------
 # Features
