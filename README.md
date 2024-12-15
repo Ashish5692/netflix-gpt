@@ -48,7 +48,16 @@
 - GPT Search Bar Feature - Keeping data inside store that is whether gpt search is active or normal browser is active 
 - Storing Language Data Inside Redux Store.
 - Multi- Language Feature Inside the App
-- Pusinh the searched movie data to store.
+- Pushing the searched movie data to store.
+- GPT  Open AI Api Key
+- GPT Search API Call
+- Fetch gptMovieSuggestion from TMDB
+- Created gptSlice added data
+- Reused Movie List component to make Movie Suggestion container
+- Memoization
+- Added .env file
+- Adding .env file to gitignore
+- Made site Responsive
 
 --------
 # Features
